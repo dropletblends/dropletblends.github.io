@@ -32,32 +32,40 @@
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <div class="imgbox">
-      <img style="width: 100%" src='images/shortwibble.jpg'>
+      <img style="width: 100%" src='images/wobbly.jpg'>
   </div>
   <div class="container">
+      <div class="row">
+          <div class="four columns offset-by-four columns" style="margin-top: 2%">
+              <img src='images/dropletblends.png' style="width: 75%; display: block; margin-left: auto; margin-right: auto;">
+          </div>
+      </div>
     <div class="row">
-        <div class="four columns offset-by-four columns" style="margin-top: -18%">
-            <img src='images/dropletblends.png' class="u-max-full-width">
-        </div>
-    </div>
-    <div class="row">
-        <div class="ten columns offset-by-one column" style="margin-top: 2%">
+        <div class="ten columns offset-by-one column" style="margin-top: 3%">
             <img src='images/paintheader.jpg' class="u-max-full-width">
         </div>
     </div>
+    
     <div class="row">
-        <div class="six columns offset-by-three columns" style="text-align:center; margin-top: 3%">
-            <h2 style="font-weight: 600">Roll-ons</h2>
-            Roll on roll-ons. Nice smells in nice bottles.
+        <div class="eight columns offset-by-two columns" style="margin-top: 2%; text-align:center">
+            <h4 style="font-weight: bold;">Welcome to Droplet Blends.<br>Purveyors of nice smells in nice bottles.</h4>
+            Browse to your hearts content below, and see what tickles your fancy.<br>Everything is handmade to order, which means it's made with love, and specifically for <i>you!</i>
         </div>
     </div>
+    <hr>
+<!--    <div class="row">-->
+<!--        <div class="six columns offset-by-three columns" style="text-align:center; margin-top: 3%">-->
+<!--            <h2 style="font-weight: 600">Roll-ons</h2>-->
+<!--            Roll on roll-ons. Nice smells in nice bottles.-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="row">
-      <div class="twelve columns" style="margin-top: 5%">
-          <div id='collection-component-1612554810749'></div>
+      <div class="twelve columns" style="margin-top: 0%">
+          <div id='collection-component-1613743731658'></div>
           <script type="text/javascript">
           /*<![CDATA[*/
           (function () {
-            var scriptURL = './buy-button-storefront.min.js';
+            var scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
             if (window.ShopifyBuy) {
               if (window.ShopifyBuy.UI) {
                 ShopifyBuyInit();
@@ -81,298 +89,8 @@
               });
               ShopifyBuy.UI.onReady(client).then(function (ui) {
                 ui.createComponent('collection', {
-                  id: '244010188995',
-                  node: document.getElementById('collection-component-1612554810749'),
-                  moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
-                  options: {
-            "product": {
-              "styles": {
-                "product": {
-                  "@media (min-width: 601px)": {
-                    "max-width": "calc(33.33333% - 30px)",
-                    "margin-left": "30px",
-                    "margin-bottom": "50px",
-                    "width": "calc(33.33333% - 30px)"
-                  },
-                  "img": {
-                    "height": "calc(100% - 15px)",
-                    "position": "absolute",
-                    "left": "0",
-                    "right": "0",
-                    "top": "0"
-                  },
-                  "imgWrapper": {
-                    "padding-top": "calc(75% + 15px)",
-                    "position": "relative",
-                    "height": "0"
-                  }
-                },
-                "title": {
-                  "color": "#221f20"
-                },
-                "button": {
-                  "font-weight": "bold",
-                  "color": "#221f20",
-                  ":hover": {
-                    "color": "#221f20",
-                    "background-color": "#d1d3d2"
-                  },
-                  "background-color": "#e8eae9",
-                  ":focus": {
-                    "background-color": "#d1d3d2"
-                  },
-                  "border-radius": "10px"
-                },
-                "price": {
-                  "color": "#221f20"
-                },
-                "compareAt": {
-                  "color": "#221f20"
-                },
-                "unitPrice": {
-                  "color": "#221f20"
-                }
-              },
-              "buttonDestination": "modal",
-              "contents": {
-                "options": false
-              },
-              "text": {
-                "button": "View product"
-              }
-            },
-            "productSet": {
-              "styles": {
-                "products": {
-                  "@media (min-width: 601px)": {
-                    "margin-left": "-30px"
-                  }
-                }
-              }
-            },
-            "modalProduct": {
-              "contents": {
-                "img": false,
-                "imgWithCarousel": true,
-                "button": false,
-                "buttonWithQuantity": true
-              },
-              "styles": {
-                "product": {
-                  "@media (min-width: 601px)": {
-                    "max-width": "100%",
-                    "margin-left": "0px",
-                    "margin-bottom": "0px"
-                  }
-                },
-                "button": {
-                  "font-weight": "bold",
-                  "color": "#221f20",
-                  ":hover": {
-                    "color": "#221f20",
-                    "background-color": "#d1d3d2"
-                  },
-                  "background-color": "#e8eae9",
-                  ":focus": {
-                    "background-color": "#d1d3d2"
-                  },
-                  "border-radius": "10px"
-                },
-                "title": {
-                  "color": "#221f20"
-                },
-                "price": {
-                  "color": "#221f20"
-                },
-                "compareAt": {
-                  "color": "#221f20"
-                },
-                "unitPrice": {
-                  "color": "#221f20"
-                },
-                "description": {
-                  "color": "#221f20"
-                }
-              },
-              "text": {
-                "button": "Add to bag"
-              }
-            },
-            "option": {},
-            "cart": {
-              "styles": {
-                "button": {
-                  "font-weight": "bold",
-                  "color": "#221f20",
-                  ":hover": {
-                    "color": "#221f20",
-                    "background-color": "#d1d3d2"
-                  },
-                  "background-color": "#e8eae9",
-                  ":focus": {
-                    "background-color": "#d1d3d2"
-                  },
-                  "border-radius": "10px"
-                },
-                "title": {
-                  "color": "#221f20"
-                },
-                "header": {
-                  "color": "#221f20"
-                },
-                "lineItems": {
-                  "color": "#221f20"
-                },
-                "subtotalText": {
-                  "color": "#221f20"
-                },
-                "subtotal": {
-                  "color": "#221f20"
-                },
-                "notice": {
-                  "color": "#221f20"
-                },
-                "currency": {
-                  "color": "#221f20"
-                },
-                "close": {
-                  "color": "#221f20",
-                  ":hover": {
-                    "color": "#221f20"
-                  }
-                },
-                "empty": {
-                  "color": "#221f20"
-                },
-                "noteDescription": {
-                  "color": "#221f20"
-                },
-                "discountText": {
-                  "color": "#221f20"
-                },
-                "discountIcon": {
-                  "fill": "#221f20"
-                },
-                "discountAmount": {
-                  "color": "#221f20"
-                }
-              },
-              "text": {
-                "title": "Bag",
-                "total": "Subtotal",
-                "empty": "Your bag is empty.",
-                "notice": "Shipping will be added at checkout.",
-                "button": "Purchase"
-              },
-              "popup": false
-            },
-            "toggle": {
-              "styles": {
-                "toggle": {
-                  "font-weight": "bold",
-                  "background-color": "#e8eae9",
-                  ":hover": {
-                    "background-color": "#d1d3d2"
-                  },
-                  ":focus": {
-                    "background-color": "#d1d3d2"
-                  }
-                },
-                "count": {
-                  "color": "#221f20",
-                  ":hover": {
-                    "color": "#221f20"
-                  }
-                },
-                "iconPath": {
-                  "fill": "#221f20"
-                }
-              }
-            },
-            "lineItem": {
-              "styles": {
-                "variantTitle": {
-                  "color": "#221f20"
-                },
-                "title": {
-                  "color": "#221f20"
-                },
-                "price": {
-                  "color": "#221f20"
-                },
-                "fullPrice": {
-                  "color": "#221f20"
-                },
-                "discount": {
-                  "color": "#221f20"
-                },
-                "discountIcon": {
-                  "fill": "#221f20"
-                },
-                "quantity": {
-                  "color": "#221f20"
-                },
-                "quantityIncrement": {
-                  "color": "#221f20",
-                  "border-color": "#221f20"
-                },
-                "quantityDecrement": {
-                  "color": "#221f20",
-                  "border-color": "#221f20"
-                },
-                "quantityInput": {
-                  "color": "#221f20",
-                  "border-color": "#221f20"
-                }
-              }
-            }
-          },
-                });
-              });
-            }
-          })();
-          /*]]>*/
-          </script>
-      </div>
-    </div>
-    <div class="row">
-        <div class="six columns offset-by-three columns" style="text-align:center; margin-top: 3%">
-            <h2 style="font-weight: 600">Sprays</h2>
-            Spray sprays. Nice smells in nice bottles.
-        </div>
-    </div>
-    <div class="row">
-      <div class="twelve columns" style="margin-bottom: 10%; margin-top: 5%">
-          <div id='collection-component-1612796494442'></div>
-          <script type="text/javascript">
-          /*<![CDATA[*/
-          (function () {
-            var scriptURL = './buy-button-storefront.min.js';
-            if (window.ShopifyBuy) {
-              if (window.ShopifyBuy.UI) {
-                ShopifyBuyInit();
-              } else {
-                loadScript();
-              }
-            } else {
-              loadScript();
-            }
-            function loadScript() {
-              var script = document.createElement('script');
-              script.async = true;
-              script.src = scriptURL;
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(script);
-              script.onload = ShopifyBuyInit;
-            }
-            function ShopifyBuyInit() {
-              var client = ShopifyBuy.buildClient({
-                domain: 'droplet-blends.myshopify.com',
-                storefrontAccessToken: 'e83184940c2601664a7bfb20f737fde3',
-              });
-              ShopifyBuy.UI.onReady(client).then(function (ui) {
-                ui.createComponent('collection', {
-                  id: '244570882243',
-                  node: document.getElementById('collection-component-1612796494442'),
+                  id: '245701345475',
+                  node: document.getElementById('collection-component-1613743731658'),
                   moneyFormat: '%C2%A3%7B%7Bamount%7D%7D',
                   options: {
             "product": {
